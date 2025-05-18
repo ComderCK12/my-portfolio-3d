@@ -21,18 +21,13 @@ const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 10, suffix: "+", label: "Hackathons Participated" },
+  { value: 20, suffix: "+", label: "Completed Projects" },
+  { value: 8, suffix: "+", label: "CPI" },
 ];
 
 const logoIconsList = [
@@ -74,18 +69,33 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Problem Solving",
+    desc: "Ability to break down complex problems and design efficient, scalable solutions.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Effective Communication",
+    desc: "Clearly articulating technical concepts and collaborating effectively with teams and stakeholders.",
+  },
+  {
+    imgPath: "/images/team.png",
+    title: "Team Collaboration",
+    desc: "Working effectively with cross-functional teams, sharing knowledge, and contributing to a positive team culture.",
+  },
+  {
+    imgPath: "/images/learning.png",
+    title: "Continuous Learning",
+    desc: "Keeping up with emerging technologies, tools, and frameworks to stay relevant and grow.",
+  },
+  {
+    imgPath: "/images/code.png",
+    title: "Clean & Maintainable Code",
+    desc: "Writing code that's easy to read, test, and maintain, following industry best practices.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Time Management",
+    desc: "Prioritizing tasks efficiently to meet deadlines without compromising quality.",
   },
 ];
 
@@ -147,39 +157,59 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review:
+      "At NPCI, I contributed to UPI's back-office infrastructure, working closely on settlements and dispute resolution modules. I gained a deep understanding of financial systems, GST workflows, and played a key role in improving backend reliability and admin workflows.",
+    imgPath: "/images/npci2.png",
+    logoPath: "/images/npci.png",
+    title: "Software Development Engineer – NPCI",
+    date: "Sept 2024 – Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Worked in the UPI backoffice team handling settlements with RBI and partner banks.",
+      "Built and integrated a maker-checker module in the UDIR (UPI Dispute and Issue Resolvement) portal using Java Spring Boot.",
+      "Assisted in the common code merge for NPCI's unified backoffice systems.",
+      "Resolved critical production issues across admin and bank portals.",
+      "Contributed to the GST Regenerator module, calculating GST on UPI transactions and generating reports for RBI and banks.",
+      "Currently leading the portal migration initiative from JSP to React to modernize the frontend infrastructure.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review:
+      "At IIT Bombay, I contributed to developing 'Vajra', an advanced Endpoint Detection and Response (EDR) system. I worked on building the rule engine using standardized SigmaHQ threat rules and designing a framework for machine learning-based detection of attack patterns. We also simulated cyberattacks to analyze system behavior and enhance detection accuracy.",
+    imgPath: "/images/iitb2.png",
+    logoPath: "/images/iitb.png",
+    title: "Research Intern – IIT Bombay",
+    date: "Aug 2023 - Jun 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed rule engine logic for detecting cyber threats using SigmaHQ rule sets.",
+      "Simulated and analyzed various types of system attacks to test detection effectiveness.",
+      "Helped design a framework for ML-based pattern detection in endpoint security.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review:
+      "At Citibank, I explored the potential of low-code platforms by developing an asset management system using Appian. I collaborated with the inventory team to gather requirements and built a solution that streamlined asset tracking and utilization across departments.",
+    imgPath: "/images/citibank.png",
+    logoPath: "/images/citi2.png",
+    title: "SDE Intern – Citibank",
+    date: "May 2023 - July 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed an asset management application using Appian, integrated with an Oracle database.",
+      "Collaborated with the inventory team to gather business requirements and translate them into technical features.",
+      "Enabled real-time tracking and reporting of asset utilization across teams.",
+    ],
+  },
+  {
+    review:
+      "Leading Enthusia was a transformative experience that honed my leadership, event management, and team mentoring skills. Securing MuscleBlaze as our title sponsor was a proud milestone.",
+    imgPath: "/images/enthusia.png", // Replace with your image path if available
+    logoPath: "/images/vjti.png",
+    title: "Executive Director, Enthusia - College Sports Fest",
+    date: "Nov 2022 - Jan 2023",
+    responsibilities: [
+      "Planned and scheduled both inter and intra-college sporting events, coordinating across multiple departments.",
+      "Managed budgeting and resource allocation to ensure smooth operations and cost efficiency.",
+      "Led the sponsorship initiative and played a key role in securing MuscleBlaze as the title sponsor.",
+      "Mentored a team of juniors alongside fellow peers, fostering leadership and team development.",
     ],
   },
 ];
