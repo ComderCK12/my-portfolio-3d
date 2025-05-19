@@ -11,16 +11,16 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Experience", imgPath: "/images/designs.svg" },
 ];
 
 const counterItems = [
@@ -124,34 +124,34 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React Frontend Development",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python ML Development",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    name: "JAVA Spring Backend Developer",
+    modelPath: "/models/java.glb",
+    scale: 1.5,
+    rotation: [0, 0, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Ajile Development",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
+    name: "Postgres and SQL Databases",
+    modelPath: "/models/server_rack.glb",
+    scale: 3,
+    rotation: [0.35, -Math.PI - 0.3, 0],
   },
 ];
 
@@ -278,18 +278,27 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    url: "https://www.instagram.com/chikukathoye/",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    url: "https://x.com/itscKathoye12",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/chirag-kathoye-1a3794230/",
+  },
+  {
+    name: "leetcode",
+    imgPath: "/images/leetcode.png",
+    url: "https://leetcode.com/u/chiragkathoyeck/",
+  },
+  {
+    name: "github",
+    imgPath: "/images/github.png",
+    url: "https://github.com/ComderCK12",
   },
 ];
 
