@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   // {
-  //   name: "Testimonials",
-  //   link: "#testimonials",
+  //   name: "My Strengths",
+  //   link: "#strengths",
   // },
 ];
 
@@ -167,8 +167,9 @@ const expCards = [
       "Worked in the UPI backoffice team handling settlements with RBI and partner banks.",
       "Built and integrated a maker-checker module in the UDIR (UPI Dispute and Issue Resolvement) portal using Java Spring Boot.",
       "Assisted in the common code merge for NPCI's unified backoffice systems.",
-      "Resolved critical production issues across admin and bank portals.",
+      "Resolved critical production issues across portals and various modueles.",
       "Contributed to the GST Regenerator module, calculating GST on UPI transactions and generating reports for RBI and banks.",
+      "Optimised the GST Calculation process bringing down the processing time by 55%",
       "Currently leading the portal migration initiative from JSP to React to modernize the frontend infrastructure.",
     ],
   },
@@ -206,9 +207,9 @@ const expCards = [
     title: "Executive Director, Enthusia - College Sports Fest",
     date: "Nov 2022 - Jan 2023",
     responsibilities: [
-      "Planned and scheduled both inter and intra-college sporting events, coordinating across multiple departments.",
+      "Planned and scheduled both inter and intra-college sporting events, coordinating across multiple departments with the team.",
       "Managed budgeting and resource allocation to ensure smooth operations and cost efficiency.",
-      "Led the sponsorship initiative and played a key role in securing MuscleBlaze as the title sponsor.",
+      "Played a key role in securing MuscleBlaze as the title sponsor.",
       "Mentored a team of juniors alongside fellow peers, fostering leadership and team development.",
     ],
   },
